@@ -15,3 +15,6 @@
 ` Console.WriteLine() ` - вывод текста на печать
 
 `Console.ReadLine()` - ввод текста 
+`int num = int.Parse(Console.ReadLine());` - метод int.Parse() превращает строку из терминала в число
+
+`alt+shift+a` - комментирует блок кода
