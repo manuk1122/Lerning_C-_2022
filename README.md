@@ -10,5 +10,5 @@
 *dotnet run*
 
 # Пользовательские команды для работы с С#
-` Console.WriteLine() ` - вывод текста
-`Console.ReadLine()` - вывод текста на печать
+` Console.WriteLine() ` - вывод текста на печать
+`Console.ReadLine()` - ввод текста 
