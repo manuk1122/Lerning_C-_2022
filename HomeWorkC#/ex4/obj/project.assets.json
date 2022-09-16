@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\ex4.csproj",
+      "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\HomeWorkC#\\ex4\\ex4.csproj",
       "projectName": "ex4",
-      "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\ex4.csproj",
+      "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\HomeWorkC#\\ex4\\ex4.csproj",
       "packagesPath": "C:\\Users\\energy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\obj\\",
+      "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\HomeWorkC#\\ex4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\energy\\AppData\\Roaming\\NuGet\\NuGet.Config"
