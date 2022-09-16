@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\ex3\\ex3.csproj": {}
+    "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\ex4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\ex3\\ex3.csproj": {
+    "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\ex4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\ex3\\ex3.csproj",
-        "projectName": "ex3",
-        "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\ex3\\ex3.csproj",
+        "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\ex4.csproj",
+        "projectName": "ex4",
+        "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\ex4.csproj",
         "packagesPath": "C:\\Users\\energy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\ex3\\obj\\",
+        "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\examples\\homeworkc#\\ex4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\energy\\AppData\\Roaming\\NuGet\\NuGet.Config"
