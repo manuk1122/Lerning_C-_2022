@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\HomeWorkC#\\ex6\\ex6.csproj": {}
+    "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\homeWorkc#\\ex6\\ex6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\HomeWorkC#\\ex6\\ex6.csproj": {
+    "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\homeWorkc#\\ex6\\ex6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\HomeWorkC#\\ex6\\ex6.csproj",
+        "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\homeWorkc#\\ex6\\ex6.csproj",
         "projectName": "ex6",
-        "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\HomeWorkC#\\ex6\\ex6.csproj",
+        "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\homeWorkc#\\ex6\\ex6.csproj",
         "packagesPath": "C:\\Users\\energy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\HomeWorkC#\\ex6\\obj\\",
+        "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\progonc#\\homeWorkc#\\ex6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\energy\\AppData\\Roaming\\NuGet\\NuGet.Config"
