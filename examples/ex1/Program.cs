@@ -1,2 +1,2 @@
 ﻿// Это HEllo world на C#
-Console.WriteLine("Hello, World!");
+Console.WriteLine(" Привет мир!");
