@@ -29,10 +29,6 @@ while (true)
     Console.WriteLine("Если хотите повторить нажмите Enter");
     Console.WriteLine("если нет просто введите любой символ");
     string answ = Console.ReadLine();
-    if (String.IsNullOrEmpty(answ))
-        {}
-    else 
-        {
-            break;
-        }
+    if (!String.IsNullOrEmpty(answ))
+        break;
 }
