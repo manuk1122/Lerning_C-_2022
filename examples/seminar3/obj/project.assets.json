@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\seminar3\\ex1\\ex1.csproj",
-      "projectName": "ex1",
-      "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\seminar3\\ex1\\ex1.csproj",
+      "projectUniqueName": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\seminar3\\seminar3.csproj",
+      "projectName": "seminar3",
+      "projectPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\seminar3\\seminar3.csproj",
       "packagesPath": "C:\\Users\\energy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\seminar3\\ex1\\obj\\",
+      "outputPath": "C:\\Users\\energy\\Desktop\\Git_Edu\\ProgOnC#\\examples\\seminar3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\energy\\AppData\\Roaming\\NuGet\\NuGet.Config"
