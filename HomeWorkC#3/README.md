@@ -1,4 +1,4 @@
-![terminator](https://avatars.mds.yandex.net/id=0ec04d293a1df7f1c5a6c00248501440-4322265-images-thumbs&n=13)
+![terminator](https://i.gifer.com/JV0w.gif)
 
 ## Урок 3. Массивы и функции в программировании
  # Задача 19
