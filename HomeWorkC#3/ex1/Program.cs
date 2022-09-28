@@ -9,22 +9,24 @@ while (true)
 {
     Console.Clear();
     bool flag= false;
-    Console.WriteLine("Введите 5 - ти значное число для проверки на полиндрои");
+    Console.WriteLine("Введите 5 - ти значное число для проверки на полиндром");
+    
     string StrN= Console.ReadLine();
+    // обработка  введеной пустой строки, символа или 0
     flag = int.TryParse(StrN, out int x);
-    if (String.IsNullOrEmpty(StrN) | flag == false)
-        Console.WriteLine("Введена пустая строка или символ ");
-    else if (int.Parse(StrN) == 0)
-        Console.WriteLine($"Вы ввели {int.Parse(StrN)}");
+    if (String.IsNullOrEmpty(StrN) | flag == false  | int.Parse(StrN) == 0 )
+        Console.WriteLine("Введена пустая строка, символ или 0 ");
     else
     {
         if (
+            // проверка на количество знаков
             int.Parse(StrN)/10 > 1000 & 
             int.Parse(StrN)/10 < 10000
-            ) // проверка на количество знаков
+            ) 
         {
           if 
           (
+            // решение через сравнение первой с последней цифрой, второй с предпоследней 
                 int.Parse(StrN) /10000 == int.Parse(StrN) % 10 &&
                 int.Parse(StrN) /1000 % 10 == int.Parse(StrN) /10 % 10 
           )
