@@ -36,27 +36,28 @@ void PrintArray(int[] col)
     while (index < col.Length)
     {
        Console.ForegroundColor = col[index] % 2 == 0 ? ConsoleColor.Green : ConsoleColor.Red ;
-            Console.Write(col[index]+",  ");
+            Console.Write(col[index]+", ");
             index++;
     }
     Console.Write("]");
+    Console.WriteLine();
 }
 
 while (true)
 {
     Console.Clear();
 
-    int size = new Random().Next(10, 100);// случайный размер
+    int size = new Random().Next(1, 100);// случайный размер
     int[] FirstArray = new int[size];
 
     FillArray(FirstArray); // заполнение массива
     PrintArray(FirstArray); // печать массива 
 
     Console.BackgroundColor = ConsoleColor.DarkGreen;
+    
     Console.WriteLine("- >" + Quantity(FirstArray));
     Console.ResetColor(); // сбрасываем в стандартный
     Console.BackgroundColor = ConsoleColor.Black;
-    
 
     Console.ResetColor(); // сбрасываем в стандартный
     Console.Write("<Enter  продолжение > <Пробел> для выхода ... ");
