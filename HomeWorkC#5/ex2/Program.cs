@@ -10,13 +10,18 @@ void FillArray(int[] collection, int min, int max)
 
     int length = collection.Length;
     int index = 0;
+    int swap = 0;
+    swap = min>max ? min : max;
+    min =max;
     while (index < length)
     {
-        collection[index] = new Random().Next(min, max);
+        collection[index] = new Random().Next(min, swap);
         index++;
     }
 }
-// метод поиска исключений
+
+// метод поиска исключений: при отрицательном размере массива число проходит модуль
+// при левой границе больше правой границы меняются местами
 bool Except(string StrN)
 {
     bool flag = false;
@@ -26,6 +31,7 @@ bool Except(string StrN)
         Console.WriteLine("Введена пустая строка, символ или 0");
     return flag;
 }
+
 // метод цветного отделения четных чисел от нечетных
 void PrintArray(int[] col)
 {
@@ -68,13 +74,15 @@ while(true)
         Except(TempMin)== true &
         Except(TempMax)== true )
     {
-    int[] ArrayOfRanum = new int[int.Parse(TempSize)];
+    int[] ArrayOfRanum = new int[Math.Abs(int.Parse(TempSize))];
     FillArray(ArrayOfRanum,int.Parse(TempMin),int.Parse(TempMax));
     PrintArray(ArrayOfRanum);
+    Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine($"Сумма элементов нечетных позиций - > {SummOfOddPos(ArrayOfRanum)}");
-    }
-    Console.ResetColor(); 
+    } 
+      Console.ResetColor(); 
     Console.Write("<Enter  продолжение > <Пробел> для выхода ... ");
     if (Console.ReadKey().Key == ConsoleKey.Spacebar)
         break;
+    
     }
