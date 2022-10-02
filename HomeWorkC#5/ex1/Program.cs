@@ -56,7 +56,7 @@ while (true)
     Console.BackgroundColor = ConsoleColor.DarkGreen;
     
     Console.WriteLine("- >" + Quantity(FirstArray));
-    Console.ResetColor(); // сбрасываем в стандартный
+    Console.ResetColor(); // сбрасываем в стандартный цвет
     Console.BackgroundColor = ConsoleColor.Black;
 
     Console.ResetColor(); // сбрасываем в стандартный

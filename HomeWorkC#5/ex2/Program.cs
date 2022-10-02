@@ -24,6 +24,8 @@ void FillArray(int[] collection, int min, int max)
     }
 }
 
+
+
 // метод поиска исключений
 bool Except(string StrN)
 {
