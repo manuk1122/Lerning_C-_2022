@@ -12,9 +12,11 @@ void FillArray(int[] collection, int min, int max)
 
     int length = collection.Length;
     int index = 0;
-    int swap = 0;
-    swap = min>max ? min : max;
-    min =max;
+    int swap = max;
+    if (min>max)
+        {swap = min;
+        min =max;}
+    
     while (index < length)
     {
         collection[index] = new Random().Next(min, swap);
