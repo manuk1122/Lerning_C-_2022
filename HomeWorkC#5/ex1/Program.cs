@@ -35,21 +35,9 @@ void PrintArray(int[] col)
     Console.Write("[ ");
     while (index < col.Length)
     {
-        
-        if (col[index] % 2 == 0)
-        {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(col[index]+" , ");
+       Console.ForegroundColor = col[index] % 2 == 0 ? ConsoleColor.Green : ConsoleColor.Red ;
+            Console.Write(col[index]+",  ");
             index++;
-        }
-        else
-        {
-        Console.ForegroundColor = ConsoleColor.Red; 
-        Console.Write(col[index]+" , ");
-        index++;
-        }
-
-
     }
     Console.Write("]");
 }
