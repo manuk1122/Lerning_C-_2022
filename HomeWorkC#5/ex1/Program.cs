@@ -42,20 +42,16 @@ void PrintArray(int[] col)
     Console.Write("]");
 }
 
-
 while (true)
 {
     Console.Clear();
 
     int size = new Random().Next(10, 100);// случайный размер
     int[] FirstArray = new int[size];
-    FillArray(FirstArray); // заполнение массива
-                           // внес немного красок в массив, надоел чб цвет
-    //Console.ForegroundColor = ConsoleColor.Yellow;
 
-    //Console.Write(" [" + String.Join(" , ", FirstArray) + "] - > ");
-    // цвет для результирующего вывода
-    PrintArray(FirstArray);
+    FillArray(FirstArray); // заполнение массива
+    PrintArray(FirstArray); // печать массива 
+
     Console.BackgroundColor = ConsoleColor.DarkGreen;
     Console.WriteLine("- >" + Quantity(FirstArray));
     Console.ResetColor(); // сбрасываем в стандартный
