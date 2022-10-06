@@ -73,8 +73,6 @@ tempBin = Convert.ToInt32(tempR);
 return tempBin;
 }
 
-
-
 while(true)
 {
     Console.Clear();
