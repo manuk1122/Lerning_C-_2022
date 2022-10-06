@@ -124,14 +124,17 @@ while(true)
  Console.WriteLine("Существует 2 метода заполнения массива с клавиатуры и случайно Нужный раскоментировать");
  Console.WriteLine("Нажмите любую клавишу для продолжения...");
  Console.ReadLine();
- int[] ArrayOfRanum = new int[new Random().Next(1,20)];
+ int size = new Random().Next(1,20);
+ Console.WriteLine("Создан массив размером "+ size);
+ int[] ArrayOfRanum = new int[size];
 FillArray(ArrayOfRanum); // заполненение с клавиатуры
 // FillRanArray(ArrayOfRanum,int.Parse(Console.ReadLine()),int.Parse(Console.ReadLine()));// заполненение случайно
 PrintArray(ArrayOfRanum);
 Console.WriteLine();
 //Console.WriteLine(UpSort(ArrayOfRanum));
 //Console.WriteLine(DownSort(ArrayOfRanum));
-//Console.WriteLine(EqualSort(ArrayOfRanum));
+//
+Console.WriteLine(EqualSort(ArrayOfRanum));
 if (UpSort(ArrayOfRanum) == true) {PrintArray(ArrayOfRanum); Console.WriteLine("-> по возрастанию");}
 
 else if (DownSort(ArrayOfRanum) == true){PrintArray(ArrayOfRanum);Console.WriteLine("-> по убыванию");}
