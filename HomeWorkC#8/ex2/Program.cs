@@ -43,17 +43,20 @@ void PrintArrayColor(int[,] inputArray, int posofrow)
         for (int j = 0; j < inputArray.GetLength(1); j++)
         {
             if (i == posofrow)
-           { Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write(" " + inputArray[i, j]);}
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write(" " + inputArray[i, j]);
+            }
             else
             {
                 Console.ResetColor();
-                Console.Write(" " + inputArray[i, j]);}
+                Console.Write(" " + inputArray[i, j]);
             }
-        Console.WriteLine();    
         }
-        
+        Console.WriteLine();
     }
+
+}
 // нахождение суммы строки массива
 int SumOfRow(int[,] array, int rows, int columns)
 {
@@ -68,6 +71,7 @@ int SumOfRow(int[,] array, int rows, int columns)
 while (true)
 {
     Console.Clear();
+    Console.ResetColor();
     try
     {
         Console.WriteLine("Введите количество строк двумерного массива");
@@ -86,7 +90,7 @@ while (true)
             Console.WriteLine($"{i + 1}-я строка сумма = {SumOfRow(array, i, columnCount)}");
             massOfSum[i] = SumOfRow(array, i, columnCount);
         }
-       int maxPos = 0 ;
+        int maxPos = 0;
         int maxEl = massOfSum[0];
         for (int i = 0; i < massOfSum.Length; i++)
         {
@@ -94,15 +98,16 @@ while (true)
             {
                 maxEl = massOfSum[i];
                 maxPos = i;
-            }}
-             Console.WriteLine();
-             Console.WriteLine($"{maxPos+1}-я строка ");
-            
-    PrintArrayColor(array,maxPos);
-    
+            }
+        }
+        Console.WriteLine();
+        Console.WriteLine($"{maxPos + 1}-я строка ");
+
+        PrintArrayColor(array, maxPos);
+
     }
 
-catch { Console.WriteLine("Ошибка ввода"); }
+    catch { Console.WriteLine("Ошибка ввода"); }
 
     Console.Write("<Enter  продолжение > <Пробел> для выхода ... ");
     if (Console.ReadKey().Key == ConsoleKey.Spacebar)
